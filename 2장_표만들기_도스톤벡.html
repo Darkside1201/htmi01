@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 만들기 - 도스톤벡</title>
+</head>
+<body>
+    <h1>2줄 3칸 기본 표 만들기</h1>
+    <table border="1" width="50%>"
+        <!-- 1번 줄 -->
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+         <tr>
+        <!--2번 줄-->
+
+
+         </tr>
+           <td>4</td>
+           <td>5</td>
+           <td>6</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>표에 제목 셀 만들기</h1>
+    <table border="1" width="100%">
+        <tr>
+            <td>학과</td>
+            <td>컴퓨터공학부</td>
+            
+         <tr>
+            <td>학번</td>
+            <td>202395035</td>
+        </tr>
+            <td>이름</td>
+            <td>도스톤벡</td>
+        </tr>
+        </table>
+
+        <hr>
+
+        <h1>셀 합치기 - 3줄 4칸 표</h1>
+        <table border="1" width="100%">
+            <tr>
+                <td colspan3>1,2,3</td>
+                <td rowspan>4</td>
+            </tr>
+
+            <tr>
+                <td raspan="2">5, 9</td>
+                <td>6</td>
+            </tr> 
+
+
+         <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+           </table>  
+
+
+           <!--thead, tbody, tfood-->
+           <table border="1" width="100%"
+           <thead>
+            <tr>
+               <th>구분</th>
+               <th>월</th>
+               <th>화</th>
+               <th>수</th>
+               <th>목</th>
+               <th>금</th>
+            </tr>
+           </thead>
+
+           <tbody>
+           <tr>
+                <th>1교시</th>
+                <td></td>
+                <td rowspan="2">SW프로그래밍사</td>
+                <td rowspan="2">SW프로그래밍사</td>
+                <td rowspan="2">공학적 끌쓰기</td>
+                <td>.</td>
+           </tr>
+
+            <tr>
+                <th>2교시</th>
+                <td rowspan="2">컴퓨터공학개론</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+           </tr>
+
+            <tr>
+                <th>3교시</th>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+           </tr> 
+
+            <tr>
+                <th>4교시</th>
+                <td>.</td>
+                <td>.</td>
+                <td>컴퓨터공학개론</td>
+                <td>.</td>
+                <td>.</td>
+           </tr> 
+
+            <tr>
+                <th>5교시</th>
+                <td rowspan="2">웹제작</td>
+                <td rowspan="2">글로벌직업탐구</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+           </tr>
+
+            <tr>
+                <th>6교시</th>
+                <td>.</td>
+                <td>대학생활 진로</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+           </tr>
+
+            <tr>
+                <th>7교시</th>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td rowspan="2">웹제작</td>
+           </tr>
+           <tr>
+                <th>8교시</th>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+       </tr>
+
+            <tr>
+                <th>9교시</th>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+           </tr>
+        
+          
+        
+           </tbody>
+           <tfoot>
+            <tr>
+                <td colspan="6">1교시 수업 시작은 9시 30분입니다.</td>
+            </tr>
+
+           </tfoot>
+
+           </table>
+
+
+           
+           
+           
+</body>
+</html>
