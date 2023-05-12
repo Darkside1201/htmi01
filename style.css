@@ -1,0 +1,52 @@
+/* 문서 전체 글꼴은 맑은 고딩. 바깔 여백 5 */
+* {
+    font-family: "맑은 고딩";
+    margin: 5px;
+}
+
+
+/*header, footer - 안쪽 여백 20, 배경 색상, 가운데 정렬 */
+header, footer {
+    padding: 20px;
+    background-color: aqua;
+    text-align: center;
+}
+
+/*nav - 배경색, 가운데 정력, 글자크기 18, 진하게, 안쪽 여백 20 */
+nav {
+    background-color: pink;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    display: inline-block;
+}
+
+/*하이버링크 - 밑줄 없음, 가로 길이 100, 세로길이 30, 안쪽 여백 20 */
+nav a {
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    padding: 10;
+}
+
+
+a:link, a:visited {
+    color:black
+}
+
+a:hover, a:active {
+    color: white;
+    background-color: aqua;
+    text-decoration: underline;
+}
+
+/* section - 배경 색상, 가로 길이 48%; 높이 200, 왼쪽 플로트 설정*/
+section {
+    background-color: red(39, 214, 54);
+    border : 3px solid gray;
+    width: 48%;
+    height: 200px;
+    float: left;
+
+}
