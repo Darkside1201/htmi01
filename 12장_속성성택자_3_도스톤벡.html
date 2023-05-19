@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>속성선텍자3 - 도스톤벡</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        li {
+            display: inline-block;
+            width: 120px;
+            margin: 10px;
+        }
+        
+        li > a {
+            text-decoration: none;
+            color: red;
+            font-size: 14px;
+            padding: 5px 20px;
+        }
+        .flat {
+            background-color: blue;
+            color: white;
+        }
+
+        [class ~= "button"] {
+            border: 2px solid green;
+            box-shadow: gold;
+        }
+        
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">메뉴1</a></li>
+        <li><a href="#">메뉴2</a></li>
+        <li><a href="#"class="button">메뉴3</a></li>
+        <li><a href="#" class="flat button">메뉴4</a></li>
+    </ul>
+</body>
+</html>
