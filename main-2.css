@@ -1,0 +1,31 @@
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container {
+    width: 1140;
+    margin: 0 auto;
+}
+
+.main-navigation__item {
+    display: inline-block;
+    padding: 10px;
+}
+
+#h1 {
+    background-color: blue;
+    text-align: center;
+}
+
+.main-navigation__item a {
+    color: #05364d;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.main-navigation__item a:hover {
+    color: #efb6df;
+}
+
